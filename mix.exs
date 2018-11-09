@@ -48,7 +48,7 @@ defmodule Hexpm.MixProject do
       {:hex_core, "~> 0.1"},
       {:libcluster, "~> 3.0"},
       {:mox, "~> 0.3.1", only: :test},
-      {:phoenix_ecto, "~> 3.1"},
+      {:phoenix_ecto, "~> 4.0"},
       {:phoenix_html, "~> 2.3"},
       {:phoenix_live_reload, "~> 1.0", only: :dev},
       {:phoenix_pubsub, "~> 1.0"},
@@ -58,7 +58,8 @@ defmodule Hexpm.MixProject do
       {:plug, "~> 1.2"},
       {:postgrex, "~> 0.14"},
       {:rollbax, "~> 0.5"},
-      {:sweet_xml, "~> 0.5"}
+      {:sweet_xml, "~> 0.5"},
+      {:jason, "~> 1.0"}
     ]
   end
 
