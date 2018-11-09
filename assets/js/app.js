@@ -13,6 +13,8 @@
 // to also remove its path from "config.paths.watched".
 import "phoenix_html"
 
+import css from '../css/app.scss';
+window.$ = window.jQuery = require("../vendor/js/jquery");
 // Import local files
 //
 // Local files can be imported directly using relative

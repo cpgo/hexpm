@@ -1,14 +1,14 @@
 .featured-home {
-  background: #3e424d url("../images/bg-featured-home.png") no-repeat right bottom;
+  background: #3e424d url("../static/images/bg-featured-home.png") no-repeat right bottom;
   background-size: 1154px;
 
   @include hdpi(2) {
-    background: #3e424d url("../images/bg-featured-home@2.png") no-repeat right bottom;
+    background: #3e424d url("../static/images/bg-featured-home@2.png") no-repeat right bottom;
     background-size: 1154px;
   }
 
   @include hdpi(3) {
-    background: #3e424d url("../images/bg-featured-home@3.png") no-repeat right bottom;
+    background: #3e424d url("../static/images/bg-featured-home@3.png") no-repeat right bottom;
     background-size: 1154px;
   }
 
@@ -149,16 +149,16 @@
   background: $color-purple;
 
   .lang-symbol {
-    background: $color-purple-light url("../images/elixir.png") center no-repeat;
+    background: $color-purple-light url("../static/images/elixir.png") center no-repeat;
     background-size: 52px;
 
     @include hdpi(2) {
-      background: $color-purple-light url("../images/elixir@2.png") center no-repeat;
+      background: $color-purple-light url("../static/images/elixir@2.png") center no-repeat;
       background-size: 52px;
     }
 
     @include hdpi(3) {
-      background: $color-purple-light url("../images/elixir@3.png") center no-repeat;
+      background: $color-purple-light url("../static/images/elixir@3.png") center no-repeat;
       background-size: 52px;
     }
 
@@ -172,16 +172,16 @@
   background: $color-erl-red;
 
   .lang-symbol {
-    background: $color-erl-red-light url("../images/erlang.png") center no-repeat;
+    background: $color-erl-red-light url("../static/images/erlang.png") center no-repeat;
     background-size: 66px;
 
     @include hdpi(2) {
-      background: $color-erl-red-light url("../images/erlang@2.png") center no-repeat;
+      background: $color-erl-red-light url("../static/images/erlang@2.png") center no-repeat;
       background-size: 66px;
     }
 
     @include hdpi(3) {
-      background: $color-erl-red-light url("../images/erlang@3.png") center no-repeat;
+      background: $color-erl-red-light url("../static/images/erlang@3.png") center no-repeat;
       background-size: 66px;
     }
 
